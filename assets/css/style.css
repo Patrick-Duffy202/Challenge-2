@@ -7,7 +7,6 @@ header {
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -35,8 +34,18 @@ header {
   }
   
   header nav ul li a:hover {
-    background: #f70303;
-    color: #e7edf0;
+    background: #f7f5f5;
+    color: #050606;
     border-radius: 15px;
     text-shadow: none;
+  }
+
+  .section-title {
+    font-size: 48px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
   }
