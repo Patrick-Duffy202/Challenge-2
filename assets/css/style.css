@@ -52,6 +52,10 @@ header {
     border-radius: 15px;
     text-shadow: none;
   }
+
+  body {
+    background-color: rgb(196, 192, 192);
+  }
   
   .hero {
     height: 400px;
@@ -90,6 +94,14 @@ header {
     padding: 25px;
     line-height: 1.3;
   }
+  
+  .project h3 {
+    text-align: center;
+  }
+
+  .project p {
+    text-align: center;
+  }
 
   .column {
     float: left;
@@ -97,4 +109,23 @@ header {
     padding: 5px;
   }
 
+  .contact-info nav {
+    color: #050606;
+    margin: 7px 0;
+  }
+  
+  .contact-info nav ul {
+    color: #050606;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .contact-info nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
   
