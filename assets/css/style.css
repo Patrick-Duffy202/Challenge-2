@@ -7,18 +7,14 @@
 header {
     color: #050606;
     padding: 20px 35px;
-    background-color: rgb(185, 185, 242);
+    background-color: rgb(196, 192, 192);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    background-image: url(../images/PatrickPicture.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 100%;
-    z-index: 9999;
+   
   }
   header h1 {
     color: #050606;
@@ -64,7 +60,6 @@ header {
     background-image: url(../images/PatrickPicture.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     background-position: 80%;
     display: flex;
     justify-content: center;
@@ -129,3 +124,51 @@ header {
     font-size: 1.55vw;
   }
   
+  @media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+
+  
+    .section-title {
+      width: 80%;
+    }
+  
+    .projects {
+      flex: 0 70%;
+    }
+  
+    }
+
+    @media screen and (max-width: 768px) {
+      section {
+       padding: 30px 15px;
+      }
+     
+      .project h3 {
+       flex: 1 100%;
+       text-align: center;
+      }
+     
+     }
+
+  
+      
+     
